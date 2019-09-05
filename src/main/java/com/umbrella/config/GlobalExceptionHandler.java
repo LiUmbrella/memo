@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.umbrella.config;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

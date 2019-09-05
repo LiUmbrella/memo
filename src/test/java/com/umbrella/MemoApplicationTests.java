@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.umbrella;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
@@ -12,7 +12,7 @@ import java.util.Optional;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Slf4j
-public class DemoApplicationTests {
+public class MemoApplicationTests {
 
     @Test
     public void contextLoads() {
@@ -24,8 +24,8 @@ public class DemoApplicationTests {
                     "\n\n" +
                     "\n organization\n" +
                     "\n";
-            log.info("com.example.demo.DemoApplicationTests");
-            Class<?> aClass = Class.forName("com.example.demo.DemoApplicationTests");
+            log.info("DemoApplicationTests");
+            Class<?> aClass = Class.forName("com.umbrella.MemoApplicationTests");
             Optional.ofNullable(aClass).filter(Class::isAnnotation).orElseGet(null);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

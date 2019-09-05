@@ -1,6 +1,6 @@
-package com.example.demo.controller;
+package com.umbrella.controller;
 
-import com.example.demo.service.BusinessService;
+import com.umbrella.service.BusinessService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

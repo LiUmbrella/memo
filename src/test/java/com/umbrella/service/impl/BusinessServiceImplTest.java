@@ -1,14 +1,11 @@
-package com.example.demo.service.impl;
+package com.umbrella.service.impl;
 
-import com.example.demo.service.BusinessService;
+import com.umbrella.service.BusinessService;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.util.Assert;
 import org.springframework.util.StopWatch;
 
 import java.sql.*;

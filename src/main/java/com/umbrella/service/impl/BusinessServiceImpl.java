@@ -1,6 +1,6 @@
-package com.example.demo.service.impl;
+package com.umbrella.service.impl;
 
-import com.example.demo.service.BusinessService;
+import com.umbrella.service.BusinessService;
 import org.springframework.stereotype.Service;
 
 /**
