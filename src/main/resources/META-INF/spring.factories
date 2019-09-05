@@ -1,0 +1,3 @@
+# Initializers
+#com.example.demo.service.impl.BusinessServiceImpl
+org.springframework.context.ApplicationContextInitializer=
