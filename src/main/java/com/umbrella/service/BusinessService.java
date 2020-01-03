@@ -8,4 +8,7 @@ package com.umbrella.service;
  */
 public interface BusinessService {
     String hello();
+    /**
+     * denial
+     */
 }
